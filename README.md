@@ -51,5 +51,3 @@ Solidity is licensed under GNU General Public License v3.0.
 
 Some third-party code has its own licensing terms.
 
-Security
-The security policy may be found here.
