@@ -2,7 +2,7 @@
 pragma solidity ^0.8.22;
 
 contract SimpleStorage {
-    uint256 favouriteNumber; // Make favoriteNumber public to access it directly
+    uint256 public favouriteNumber; // Make favoriteNumber public to access it directly
 
     mapping(string => uint256)public nameToFavouriteNumber;
 
