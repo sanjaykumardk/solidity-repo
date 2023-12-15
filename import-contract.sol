@@ -36,6 +36,7 @@ contract StorageFactory {
         
         // Call the retrieve function on the retrieved SimpleStorage instance and return the result
         return simplestorage.retreive();
+        /*or
+        return simplestoragearray[simplestorageindex].retreive();*/
     }
 }
-
