@@ -38,7 +38,7 @@ contract StorageFactory {
         
         // Call the retrieve function on the retrieved SimpleStorage instance and return the result
         return simplestorage.retreive();
-        // retreive is from SimpleStorage Contract retreive function
+        // retreive is from SFstorage 
 
         /*or
         return simplestoragearray[simplestorageindex].retreive();*/
