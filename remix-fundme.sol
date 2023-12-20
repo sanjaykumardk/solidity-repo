@@ -16,7 +16,7 @@ contract FundMe
         // msg.value is true condition otherwise it will revert the error as "Didn't send enough !!!"
 
         //1e18 == 1 * 10 ** 18 == 1000000000000000000 wei
-        // that is 1 x 10 power 18 weis
+        // that is 1 x 10 power 18 weis or 1 ether
     }
 
     //function withdraw{}
