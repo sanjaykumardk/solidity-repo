@@ -26,6 +26,7 @@ contract StorageFactory {
     function SFstorage(uint256 simplestorageindex, uint256 simplestoragenumber) public {
         // Retrieve the SimpleStorage instance from the array
         SimpleStorage simplestorage = simplestoragearray[simplestorageindex];
+        // This stores the address within the object
         
         // Call the Store function on the retrieved SimpleStorage instance
         simplestorage.Store(simplestoragenumber);
@@ -37,6 +38,8 @@ contract StorageFactory {
         
         // Call the retrieve function on the retrieved SimpleStorage instance and return the result
         return simplestorage.retreive();
+        // retreive is from SimpleStorage Contract retreive function
+
         /*or
         return simplestoragearray[simplestorageindex].retreive();*/
     }
