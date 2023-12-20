@@ -8,6 +8,7 @@ contract StorageFactory {
 
     function createSimpleStorageContract() public {
         // Create a new instance of SimpleStorage
+        // Add memory variable and then object and new contract
         SimpleStorage simplestorage = new SimpleStorage();
         
         // Add the new instance to the array
